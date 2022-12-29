@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:model="clr-namespace:Axis_LabelRotation"
+             xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
+             x:Class="Axis_LabelRotation.MainPage">
+
+    <!--<ContentPage.BindingContext>
+        <model:ViewModel></model:ViewModel>
+    </ContentPage.BindingContext>
+    <chart:SfCartesianChart>
+        <chart:SfCartesianChart.Title>
+            <Label Text="Height Comparison" 
+                   FontAttributes="Bold" 
+                   FontSize="Title" 
+                   VerticalOptions="Center" 
+                   HorizontalOptions="Center"/>
+        </chart:SfCartesianChart.Title>
+
+        <chart:SfCartesianChart.XAxes>
+            <chart:CategoryAxis  LabelRotation="60" >
+                <chart:CategoryAxis.Title>
+                    <chart:ChartAxisTitle Text="Name"/>
+                </chart:CategoryAxis.Title>
+            </chart:CategoryAxis>
+        </chart:SfCartesianChart.XAxes>
+        <chart:SfCartesianChart.YAxes>
+            <chart:NumericalAxis LabelRotation="60">
+                <chart:NumericalAxis.Title>
+                    <chart:ChartAxisTitle Text="Height (in cm)"/>
+                </chart:NumericalAxis.Title>
+            </chart:NumericalAxis>
+        </chart:SfCartesianChart.YAxes>
+        <chart:ColumnSeries ItemsSource="{Binding Data}" 
+                            XBindingPath="Name" 
+                            Label="Height"
+                            YBindingPath="Height">
+        </chart:ColumnSeries>
+    </chart:SfCartesianChart>-->
+
+</ContentPage>
