@@ -5,10 +5,10 @@
              xmlns:chart="clr-namespace:Syncfusion.Maui.Charts;assembly=Syncfusion.Maui.Charts"
              x:Class="Axis_LabelRotation.MainPage">
 
-    <!--<ContentPage.BindingContext>
+    <ContentPage.BindingContext>
         <model:ViewModel></model:ViewModel>
     </ContentPage.BindingContext>
-    <chart:SfCartesianChart>
+    <chart:SfCartesianChart Margin="0,10,0,0">
         <chart:SfCartesianChart.Title>
             <Label Text="Height Comparison" 
                    FontAttributes="Bold" 
@@ -36,6 +36,6 @@
                             Label="Height"
                             YBindingPath="Height">
         </chart:ColumnSeries>
-    </chart:SfCartesianChart>-->
+    </chart:SfCartesianChart>
 
 </ContentPage>
