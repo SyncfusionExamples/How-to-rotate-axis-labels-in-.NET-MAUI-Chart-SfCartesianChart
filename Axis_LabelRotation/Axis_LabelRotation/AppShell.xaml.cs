@@ -1,9 +1,10 @@
-﻿namespace Axis_LabelRotation;
-
-public partial class AppShell : Shell
+﻿namespace Axis_LabelRotation
 {
-	public AppShell()
-	{
-		InitializeComponent();
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }
